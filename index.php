@@ -13,5 +13,7 @@
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
 
-echo $_SERVER['SERVER_ADDR'];
+echo $_SERVER['SERVER_ADDR']."<br>";
+echo $_SERVER['SERVER_NAME']."<br>";
+echo $_SERVER['SERVER_PORT']."<br>";
 require 'webroot' . DIRECTORY_SEPARATOR . 'index.php';
